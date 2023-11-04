@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Formas</title>
+</head>
+
+<body>
+    <section class="form-one">
+        <div class="form-one__container">
+            <form action="" validate="validate">
+                <div class="form-one__container-form">
+                    <div class="form-one__inputs">
+                        <div class="form-one__username">
+                            <label for="username">
+                                Username
+                            </label>
+                            <input 
+                                type="text"
+                                name="username"
+                                id="username"
+                                placeholder="Username"
+                                maxlength="25"
+                                minlength="8"
+                                required
+                            >
+                        </div>
+                        <div class="form-one__password">
+                            <label for="password">
+                                Password
+                            </label>
+                            <input 
+                                type="password"
+                                name="password"
+                                id="password"
+                                placeholder="Password"
+                                maxlength="25"
+                                minlength="8"
+                                required
+                            >
+                        </div>
+                    </div>
+                    <div class="form-one__switch">
+                        <label class="form-one__switch-design">
+                            <input type="checkbox">
+                            <span class="form-one__slider round"></span>
+                        </label>
+                        <div class="form-one__switch-text">
+                            Subscribe to news
+                        </div>
+                    </div>
+                    <button type="submit" class="form-one__button">
+                        Sign in
+                    </button>
+                    <div class="form-one__link">
+                        <a href="">Forgot your password?</a>
+                    </div>
+                    <div class="form-one__line"></div>
+                    <div class="form-one__signing-options">
+                        <p class="form-one__continue">or continue with</p>
+                        <div class="form-one__social-media">
+                            <button class="form-one__google">
+                                <img src="assets/images/google (1) 1.png" alt="google-logo" class="google-logo" width="24" height="24">
+                            </button>
+                            <button class="form-one__facebook">
+                                <img src="assets/images/facebook.png" alt="facebook-logo" class="facebook-logo" width="24" height="24">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="form-two">
+        <div class="form-two__container">
+            <h2 class="form-two__heading">
+                Contact Us
+            </h2>
+            <form action="" validate="validate">
+                <div class="form-two__container-form">
+                    <div class="form-two__input-part">
+                        <div class="form-two__inputs">
+                            <div class="form-two__input-one">
+                                <label for="first-name">
+                                    First name
+                                </label>
+                                <input 
+                                    type="text"
+                                    name="first-name"
+                                    id="first-name"
+                                    placeholder="First name"
+                                    required
+                                >
+                            </div>
+                            <div class="form-two__input-two">
+                                <label for="last-name">
+                                    Last name
+                                </label>
+                                <input 
+                                    type="text"
+                                    name="last-name"
+                                    id="last-name"
+                                    placeholder="Last name"
+                                    required
+                                >
+                            </div>
+                            <div class="form-two__input-three">
+                                <label for="country">
+                                    Country
+                                </label>
+                                <select name="country" id="country" required>
+                                    <option value="" disabled selected>Select a country</option>
+                                    <option value="latvia">Latvia</option>
+                                    <option value="lithuania">Lithuania</option>
+                                    <option value="estonia">Estonia</option>
+                                </select>
+                            </div>
+                            <div class="form-two__input-four">
+                                <label for="email">
+                                    E-mail address
+                                </label>
+                                <input 
+                                    type="text"
+                                    name="email"
+                                    id="email"
+                                    placeholder="E-mail address"
+                                    required
+                                >
+                            </div>
+                        </div>
+                        <label class="form-two__checkbox-container">
+                            <input type="checkbox" checked="checked">
+                            <span class="form-two__checkbox-checkmark"></span>
+                            Subscribe to news
+                        </label>
+                        <div class="form-two__message">
+                            <label for="message">
+                                Message
+                            </label>
+                            <textarea 
+                                name="message" 
+                                id="message" 
+                                placeholder="Type message"
+                                required
+                            ></textarea>
+                        </div>
+                    </div>
+                    <div class="form-two__button-container">
+                        <button type="submit" class="form-two__button">
+                            Submit
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <script src="/scripts.js"></script>
+</body>
+</html>
