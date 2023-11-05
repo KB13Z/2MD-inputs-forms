@@ -354,7 +354,7 @@ input#username::placeholder {
   flex-direction: column;
 }
 
-.form-two__input-four input[type=text] {
+.form-two__input-four input[type=email] {
   padding: 12px;
   background-color: #FAFAFA;
   border-radius: 5px;
@@ -444,18 +444,18 @@ input#username::placeholder {
   height: 152px;
   border: none;
   border-radius: 5px;
+  background-color: rgba(250, 250, 250, 1);
 }
 
 .form-two__message textarea::placeholder {
-  background-color: rgba(243, 243, 245, 1);
+  
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 14px;
   font-weight: 400;
-  color: rgba(186, 185, 189, 1);
+  color: #BAB9BD;;
 }
 
-#message {
-  background-color: rgba(243, 243, 245, 1);
+.form-two__message textarea#message {
   padding: 12px;
   resize: none;
 }
@@ -481,4 +481,407 @@ input#username::placeholder {
   font-weight: 700;
   cursor: pointer;
   transition: 0.4s;
+}
+
+.form-three {
+  padding: 104px;
+}
+
+.form-three__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 665px;
+  height: 604px;
+}
+
+.form-three__left-side-wrapper {
+  background-color: rgba(101, 31, 255, 1);
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  width: 216px;
+  gap: 32px;
+  padding: 46px 16px 32px 16px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 40px 40px 60px rgba(0, 0, 0, 0.1);
+}
+
+.form-three__left-side-text {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.form-three__left-side-wrapper h5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.form-three__left-side-wrapper p {
+  line-height: 24px;
+  margin: 0;
+}
+
+.form-three__left-side-contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-three__left-side-phone {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
+
+.form-three__left-side-email {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center
+}
+
+.form-three__right-side-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 449px;
+  box-shadow: 40px 40px 60px rgba(0, 0, 0, 0.1);
+}
+
+.form-three__form-container {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 16px 32px 32px;
+  gap: 32px;
+}
+
+.form-three__form-container h2 {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.form-three__form-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.form-three__form-upper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: space-between;
+}
+
+.form-three__form-upper input {
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  background-color: rgba(250, 250, 250, 1);
+}
+
+.form-three__form-upper input::placeholder {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  color: #BAB9BD;
+  font-weight: 400;
+}
+
+.form-three__form-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.form-three__form-bottom-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-three__input-five input {
+  width: 100%;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  background-color: rgba(250, 250, 250, 1);
+}
+
+.form-three__input-five input::placeholder {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  color: #BAB9BD;
+  font-weight: 400;
+}
+
+.form-three__input-six textarea {
+  width: 100%;
+  height: 84px;
+  background-color: rgba(250, 250, 250, 1);
+  border: none;
+  border-radius: 5px;
+  resize: both;
+  overflow: auto;
+  max-width: 401px;
+  max-height: 84px;
+  
+}
+
+.form-three__input-six textarea::placeholder {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 14px;
+  color: #BAB9BD;
+  font-weight: 400;
+  padding-top: 8px;
+  padding-left: 12px;
+}
+
+.form-three__button-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form-three__button {
+  border: none;
+  color: white;
+  background-color: rgba(101, 31, 255, 1);
+  padding: 12px 48px;
+  border-radius: 5px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.form-three__button:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 500;
+  transform: scale(1.01)
+}
+
+.form-four {
+  padding: 104px;
+}
+
+.form-four__container {
+  width: 665px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 40px 40px 60px 0px rgba(0, 0, 0, 0.10);
+}
+
+.form-four__heading {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.form-four__heading h2 {
+  margin: 0;
+}
+
+.form-four__checkout-information {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.form-four__checkout-information h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.4px;
+  margin: 0;
+}
+
+.form-four__checkout-information h5 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  padding-bottom: 4px;
+}
+
+.form-four__checkout-information ul li ul li {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #5A5761;
+}
+
+.form-four__checkout-information ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.form-four__checkout-information ul li {
+  padding-bottom: 4px;
+}
+
+.form-four__order {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 16px;
+}
+
+.form-four__order-details {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.form-four__delivery {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 16px;
+}
+
+.form-four__delivery-detail-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.form-four__payment {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-four__payment h3 {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.4px;
+}
+
+.form-four__payment-form {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.form-four__payment-form-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.form-four__payment-input-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form-four__input-one {
+  width: 60%;
+}
+
+.form-four__input-two {
+  width: 20%;
+}
+
+.form-four__input-three {
+  width: 20%;
+}
+
+.form-four__input-one input {
+  width: 100%;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  background-color: rgba(250, 250, 250, 1);
+}
+
+.form-four__input-one input::placeholder {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  color: #BAB9BD;
+  font-weight: 400;
+}
+
+.form-four__input-two input {
+  width: 100%;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  background-color: rgba(250, 250, 250, 1);
+}
+
+.form-four__input-two input::placeholder {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  color: #BAB9BD;
+  font-weight: 400;
+}
+
+.form-four__input-three input {
+  width: 100%;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  background-color: rgba(250, 250, 250, 1);
+  color: #BAB9BD;
+}
+
+.form-four__button-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form-four__button {
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: rgba(101, 31, 255, 1);
+  border: none;
+  border-radius: 5px;
+  padding: 12px 48px;
+}
+
+.form-four__button:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 500;
+  transform: scale(1.01)
 }

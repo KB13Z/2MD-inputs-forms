@@ -125,7 +125,7 @@
                                     E-mail address
                                 </label>
                                 <input 
-                                    type="text"
+                                    type="email"
                                     name="email"
                                     id="email"
                                     placeholder="E-mail address"
@@ -159,8 +159,241 @@
             </form>
         </div>
     </section>
-
-
+    <section class="form-three">
+        <div class="form-three__container">
+            <div class="form-three__left-side-wrapper">
+                <div class="form-three__left-side-text">
+                    <h5>Contact Information</h5>
+                    <p>Here's some additional support text to help set user expectations. </p>
+                </div>
+                <div class="form-three__left-side-contacts">
+                    <div class="form-three__left-side-phone">
+                        <img src="assets/images/Phone.svg" alt="phone-icon" class="phone-icon" width="20" height="20">
+                        <p>123-456-7890</p>
+                    </div>
+                    <div class="form-three__left-side-email">
+                        <img src="assets/images/Mail.svg" alt="mail-icon" class="mail-icon" width="20" height="20">
+                        <p>support@minerva.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="form-three__right-side-wrapper">
+                <div class="form-three__form-container">
+                    <h2>Contact us</h2>
+                    <form action="" validate="validate">
+                        <div class="form-three__form-wrapper">
+                            <div class="form-three__form-upper">
+                                <div class="form-three__input-one">
+                                    <label for="first-name">
+                                        First name
+                                    </label>
+                                    <br>
+                                    <input 
+                                        type="text"
+                                        name="first-name"
+                                        id="first-name"
+                                        placeholder="First name"
+                                        required
+                                    >
+                                </div>
+                                <div class="form-three__input-two">
+                                    <label for="last-name">
+                                        Last name
+                                    </label>
+                                    <br>
+                                    <input 
+                                        type="text"
+                                        name="last-name"
+                                        id="last-name"
+                                        placeholder="Last name"
+                                        required
+                                    >
+                                </div>
+                                <div class="form-three__input-three">
+                                    <label for="phone-number">
+                                        Phone number
+                                    </label>
+                                    <br>
+                                    <input 
+                                        type="tel"
+                                        name="phone-number"
+                                        id="phone-number"
+                                        placeholder="Phone number"
+                                        minlength="10"
+                                        maxlength="10"
+                                        required
+                                    >
+                                </div>
+                                <div class="form-three__input-four">
+                                    <label for="email">
+                                        E-mail address
+                                    </label>
+                                    <br>
+                                    <input 
+                                        type="email"
+                                        name="email"
+                                        id="email"
+                                        placeholder="E-mail address"
+                                        required
+                                    >
+                                </div>
+                            </div>
+                            <div class="form-three__form-bottom">
+                                <div class="form-three__form-bottom-inputs">
+                                    <div class="form-three__input-five">
+                                        <label for="topic">
+                                            Topic
+                                        </label>
+                                        <br>
+                                        <input 
+                                            type="text"
+                                            name="topic"
+                                            id="topic"
+                                            placeholder="Topic"
+                                            required
+                                        >
+                                    </div>
+                                    <div class="form-three__input-six">
+                                        <label for="message">
+                                            Message
+                                        </label>
+                                        <br>
+                                        <textarea 
+                                            name="message" 
+                                            id="message"
+                                            placeholder="Enter message" 
+                                            required
+                                        ></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-three__button-wrapper">
+                                    <button class="form-three__button">
+                                        Submit
+                                    </button>
+                                </div>
+                            </div>
+                        </div>  
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="form-four">
+        <div class="form-four__container">
+            <div class="form-four__heading">
+                <h2>Checkout</h2>
+            </div>
+            <div class="form-four__checkout-information">
+                <div class="form-four__order">
+                    <h3>Your Order</h3>
+                    <div class="form-four__order-details">
+                        <div class="form-four__order-icon">
+                            <img src="assets/images/plant-pot.svg" alt="order-icon" class="order-icon" width="40" height="40">
+                        </div>
+                        <div class="form-four__order-information">
+                            <ul>
+                                <li>
+                                    <h5>Eggshell Plant Pot</h5>
+                                    <ul>
+                                        <li>Size: Medium</li>
+                                        <li>Qty: 1</li>
+                                        <li>$25.00</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-four__delivery">
+                    <h3>Delivery Details</h3>
+                    <div class="form-four__delivery-detail-wrapper">
+                        <div class="form-four__receiver">
+                            <ul>
+                                <li>
+                                    <h5>Adam Sandler</h5>
+                                    <ul>
+                                        <li>1234 Fake St</li>
+                                        <li>Milwaukee, WI 53203</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="form-four__shipping">
+                            <ul>
+                                <li>
+                                    <h5>Shipping Speed</h5>
+                                    <ul>
+                                        <li>$7.00 No Rush Shipping</li>
+                                        <li>Arrives by 1/16/22</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-four__payment">
+                <h3>Payment Method</h3>
+                <div class="form-four__payment-form">
+                    <form action="" validate="validate">
+                        <div class="form-four__payment-form-wrapper">
+                            <div class="form-four__payment-input-wrapper">
+                                <div class="form-four__input-one">
+                                    <label for="card-number">
+                                        Card number
+                                    </label>
+                                    <br>
+                                    <input 
+                                        type="number"
+                                        name="card-number"
+                                        id="card-number"
+                                        placeholder="Card number"
+                                        required
+                                    >
+                                </div>
+                                <div class="form-four__input-two">
+                                    <label for="security-code">
+                                        Security code
+                                    </label>
+                                    <br>
+                                    <input 
+                                        type="number"
+                                        name="security-code"
+                                        id="security-code"
+                                        placeholder="Security code"
+                                        maxlength="3"
+                                        minlength="3"
+                                        required
+                                    >
+                                </div>
+                                <div class="form-four__input-three">
+                                    <label for="expiry-date">
+                                        Expiry date
+                                    </label>
+                                    <br>
+                                    <input 
+                                        type="month"
+                                        name="expiry-date"
+                                        id="expiry-date"
+                                        placeholder="Expiry date"
+                                        min="2023-11"
+                                        max="2028-10"
+                                        required
+                                    >
+                                </div>
+                            </div>
+                            <div class="form-four__button-wrapper">
+                                <button type="submit" class="form-four__button">
+                                    Continue
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="/scripts.js"></script>
 </body>
 </html>
